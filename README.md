@@ -74,10 +74,11 @@ Parameters:
 * button: the button, See LCDPLATE.buttons for button values.
 
 ## Example
-```coffeescript
-lcd.on 'button_change', (button) ->
-    lcd.clear()
-	lcd.message 'Button changed:\n'+lcd.buttonName button
+```javascript
+lcd.on('button_change', function(button) {
+  lcd.message('Button changed:\n' + lcd.buttonName(button));
+  return lcd.clear();
+});
 ```
 
 ## button_up
