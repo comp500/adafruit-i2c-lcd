@@ -2,7 +2,7 @@
   "name": "adafruit-i2c-lcd",
   "version": "0.0.1",
   "description": "Node Library for using adafruit i2c rgb lcd pi plate",
-  "main": "./lib/adafruit-i2c-lcd.js",
+  "main": "./lib/index.js",
   "dependencies": {
     "i2c": "0.1.4"
   },
